@@ -1,0 +1,107 @@
+head{
+    background-color: #E3CDA4;
+}
+body{
+    background-color: #E3CDA4;
+}
+p {
+    color: #2F343B;
+    text-indent: 30px;
+  }
+*CSS syntax for a class */
+  .relative {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 2px dashed orange;
+  }
+
+  .absolute {
+    /* position: static;
+      positon: relative; 
+      position: fixed;
+      bottom: 14px;
+      right: 14px;
+      width: 300px; */
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 80%;
+    height: 100px;
+    padding: 12px 0px 0px 12px;
+    border: 2px dashed orange
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    margin-bottom: 12px;
+    background-color: red;
+    border: 2px solid blue;
+  }
+
+  .static {
+    position: static;
+    top: 0;
+    padding: 5px;
+    margin-right: 2px;
+    background-color: orange;
+    border: 5px dashed green;
+  }
+
+  /*CSS syntax for an ID */
+  /* #secondpara {} */
+
+  .flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    background-color: green;
+}
+
+.flex-container > div {
+    background-color: lightgray;
+    /* width: 80%; */
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    line-height: 75px;
+    font-size: 25px; 
+}
+
+#flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(197, 255, 236);
+  height: 300px;
+  width: 250px;
+}
+
+#flex-container > div {
+  flex: 1;
+  height: 150px;
+}
+
+#orangeDiv {
+  background-color: rgb(254, 140, 10);
+  overscroll-behavior: contain;
+}
+
+#greenyellowDiv {
+  background-color: rgb(171, 255, 46);
+  overscroll-behavior: contain;
+}
+#pinkDiv {
+  background-color: rgb(255, 205, 213);
+  overscroll-behavior: contain;
+}
+
+#yellowDiv {
+  background-color: rgb(255, 255, 161);
+  overscroll-behavior: contain;
+}

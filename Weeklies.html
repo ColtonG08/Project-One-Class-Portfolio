@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/Weeklies.css"/> 
+    <title>Weekly A</title>
+</head>
+<body>
+    <h1>ART 3001</h1>
+   
+    <div class="sticky">
+        <a href="HomePage.html"> HOME</a>
+    </div>
+
+    <h2>Weekly A</h2><hr>
+
+    <p> This week in Internet Art, I was introduced to the programs Visual Studio Code and GitHub.
+        We began the early stages of coding for our very own websites.
+        I learned how to create a repositry through visual studio code and upload that to my very own GitHub account. 
+        From there, we looked at an introductory into the very basics of coding and the language and writing of coding 
+        in order to build our websites. One of the most important takeaways I learned this week, was
+        that when coding you must be tedious and precise when typing out your code language for example, the slightest 
+        error can throw the entire code off. Like when using the a tag code you must rember to close the tag with >
+        in order for the code to work. 
+    </p>
+
+    <p> In addition to basic coding langague this week, we also learned how to add visual style and aesthetics
+        to our website pages. We created a style.css page and connected it to our repositories in order to insert visual aethteics 
+        into our coding langague. Through websites, like w3schools.com and stackoverflow.com, I was able to play around creating my 
+        own Frankenstein website page. Using these tools, I learned how to make a button and edit text colors. This week we also learned
+        how to insert images into our code using the coding langague < img src = "" /> 
+    </p>
+    
+    <div>
+        <img src="./IMG/creativity spogebob meme.jpg" style = "width:25%; height:25%;"/> 
+    </div> 
+
+
+
+    <h2>Weekly B</h2><hr> 
+    
+
+    <div class="relative">
+        <!--The float property allows other inline content to "wrap-around" itself -->
+        <img src="./IMG/meric-dagli-xxbh8ybkfvm-unsplash-scaled.webp" style="float: left; width: 375px; height:250px; margin-right: 12px"/> 
+    
+        <p>
+            This week in Internet Art, we leanred how to position certain elements within our webpage.
+    We specifically looked at how to create codes for several CSS postioning properties including: 
+    <span style="color: red">relative, absolute, sticky, fixed, and static.</span> Relative positioning is positioned relative to its normal position. 
+    The absolute position is positioned relative to the nearest preexisting element. The sticky positioning is positioned
+    based on the scrolling position of the webpage. The fixed positoning is positioned relative to the viewpoint, in 
+    which the positoning remains in the same place even if the webpage is scrolled. The positioning of the static positioning 
+    element is not affected by the top, bottom, left, or right properties.
+    </div>
+
+    <div class="static">
+        <p>     This week we also learned how to add more visual elements and aesthetics to our page utilizing various
+            CSS style sheet codes. In the CSS styling sheet, I learned how to create borders around my text. When making
+            border elements, I learned how I can apply color to the background of my border and manipulate the border to appear
+            as a dashed or solid line in order to create more visual aethetics and elements within my code and html webpage.  
+        </p>
+    </div>
+
+    <h2>Weekly C</h2><hr> 
+    
+
+    <div>
+        <h2>Flex Containers</h2>
+
+        <div class="flex-container">
+            <div>This week in Internet Art, we learned how to create flex containers.</div>
+            <div><h2>Flex Containers are very useful to use when creating a portfolio page of artwork for your website.</h2></div>
+            <div><small>We also learned how to create css style codes in order to format and decorate flex containers.</small></div>
+            <div><h4>In order to add a flex container to your portfolio page, the code to insert into your div is: class = "flex-container". </div></h4></div>
+    </div>
+    <div>
+        <div class="flex-container">
+            <div><small>Within the css style code, the flex container can be manipulated by changing the positioning of text within, the background color, text, and size of the container itself. </small></div>
+            <div><h2>This week, we also had the opportunity to experiment on our own for our Five Variations and Hypertext exercise assignments.</h2></div>
+            <div><h6>In experimenting, I found in w3 schools how to manipulate things like text color, alignment, positioning, and size.</h6></div>
+            <div><small>The most important thing I learned this week in my experimentation with coding was that in your coding langauge you must be very organized.</small></div>
+            <div><h2>div containers are essential in organizing your codes correctly and effectively.</h2></div>
+        </div>
+
+        <h2>Weekly D</h2><hr> 
+    
+
+    <div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script"></script>
+    <title>Jquery Example</title>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action()
+            $("button").click(function(){
+                $(".second").hide(3000);
+            })
+            $("#p1").mouseleave(function(){
+                alert("Mouse has left p1!");
+            })
+
+            $("p").on({
+                mouseenter: function(){
+                    $(this).css("background-color", "lightgray");
+            },
+            mouseleave: function(){
+                $(this).css("background-color", "#C77966");
+            },
+            click: function(){
+                $(this).css("background-color", "yellow");
+            }
+        })
+
+        $("#toggleBut").click(function(){
+            $("#togglePara").toggle(1000);
+        })
+    })
+    </script>
+</head>
+<body>
+    <p id="p1">This week in Internet Art, we learned how to code a jQuery.</p>
+    <p class="second">jQuery is a lightweight JavaScript library for coders to use on their websites that require less written coding.</p>
+    <p>jQuery is a very helpful tool for coders, for it simplifies coding from JavaScript such as CSS manipulation, effects, animations, and AJAX.</p>
+    <p>What would normally take multiple lines of complicated drawn out coding language, jQuery allows coders to code for specific utilities within a single line of coding language.</p>
+    <button>Click to hide paragraphs</button>
+
+    <p id="togglePara"> This week in Internet Art, I also began working on bulding my class portfolio website.
+        Working on my portfolio website, I also learned how to create CSS coding langauge in order to bring in font styles from third party resources such as Adobe Fonts. 
+        In creating my portfolio site, I hope to adopt a sort of vintage newspaper aesthetic in my website design.
+        To create this vintage newspaper aesthetic, I learned the necessary coding language required in order to organize my text into columns.
+        In order to organize my texts into columns, the correct CSS styling code is simply newspaper1. {columns: 100px 2}. 
+    </p>
+    <button id="toggleBut">Toggle Button</button>
+</body>
+</html>
+
+</body>
+</html>
