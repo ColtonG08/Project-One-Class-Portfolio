@@ -1,0 +1,162 @@
+head{
+    background-color: #E3CDA4;
+}
+body{
+    background-color: #E3CDA4;
+}
+h1{
+    background-color: #E3CDA4;
+    color: #703030;
+    font-family: "elfreth-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    font-size: 170px;
+    text-decoration-line: overline underline; 
+    
+}
+
+.newspaper1 {
+    columns: 25px 3;
+    background-color: #E3CDA4;
+    color: #703030;
+    font-family: "hwt-american-shopworn", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 24pt;
+  }
+  
+  .newspaper2 {
+    columns: 50px 4;
+    background-color: #E3CDA4;
+    color: #703030;
+  }
+
+  *CSS syntax for a class */
+  .relative {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    padding: 5px;
+    margin-bottom: 12px;
+    border: 2px dashed orange;
+  }
+
+  .absolute {
+    /* position: static;
+      positon: relative; 
+      position: fixed;
+      bottom: 14px;
+      right: 14px;
+      width: 300px; */
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 80%;
+    height: 100px;
+    padding: 12px 0px 0px 12px;
+    border: 2px dashed orange
+  }
+
+  .sticky {
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    margin-bottom: 12px;
+    background-color: #7E827A;
+    border: 2px solid #703030;
+  }
+
+  .static {
+    position: static;
+    top: 0;
+    padding: 5px;
+    margin-right: 2px;
+    background-color: #E3CDA4;
+    border: 10px solid #703030;
+    font-family: "wausau", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20pt;
+  }
+  h2{
+    background-color: #E3CDA4;
+    color: #703030;
+    font-family: "wausau", sans-serif;
+    font-variation-settings: "wght" 400;
+    font-size: 50pt; 
+    
+}
+h3{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "wausau", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 75pt; 
+  
+}
+h4{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "hwt-american-shopworn", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 32pt; 
+  
+}h5{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "hwt-american-shopworn", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 40pt; 
+  
+}h6{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "hwt-american-shopworn", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 55pt; 
+  
+}
+h7{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "hwt-american-shopworn", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 75pt; 
+  
+}
+
+h8{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "wausau", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 125pt; 
+  
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #703030;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "hwt-american-shopworn", sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #7E827A;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2F343B;
+  color: white;
+}
+  /*CSS syntax for an ID */
+  /* #secondpara {} */
