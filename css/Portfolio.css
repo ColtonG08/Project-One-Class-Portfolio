@@ -55,7 +55,23 @@ body{
     color: #703030;
     font-family: "elfreth-variable", sans-serif;
     font-variation-settings: "wght" 400;
-    font-size: 190px;
+    font-size: 170px;
     text-decoration-line: overline underline; 
     
   }
+
+  h2{
+    background-color: #E3CDA4;
+    color: #703030;
+    font-family: "wausau", sans-serif;
+    font-variation-settings: "wght" 400;
+    font-size: 40pt; 
+}
+
+h3{
+    background-color: #E3CDA4;
+    color: #703030;
+    font-family: "wausau", sans-serif;
+    font-variation-settings: "wght" 400;
+    font-size: 100px; 
+}

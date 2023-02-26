@@ -5,9 +5,14 @@ body{
     background-color: #E3CDA4;
 }
 p {
-    color: #2F343B;
-    text-indent: 30px;
-  }
+  background-color: #E3CDA4;
+  color: #2F343B;
+  font-family: "hwt-american-shopworn", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20pt;
+}
+
 *CSS syntax for a class */
   .relative {
     position: relative;
@@ -39,8 +44,8 @@ p {
     top: 0;
     padding: 5px;
     margin-bottom: 12px;
-    background-color: red;
-    border: 2px solid blue;
+    background-color: #C77966;
+    border: 2px solid #7E827A;
   }
 
   .static {
@@ -48,8 +53,8 @@ p {
     top: 0;
     padding: 5px;
     margin-right: 2px;
-    background-color: orange;
-    border: 5px dashed green;
+    background-color: #E3CDA4;
+    border: 5px dashed #703030;
   }
 
   /*CSS syntax for an ID */
@@ -61,11 +66,15 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     align-items: baseline;
-    background-color: green;
+    background-color: #703030;
+    font-family: "hwt-american-shopworn", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20pt;
 }
 
 .flex-container > div {
-    background-color: lightgray;
+    background-color: #C77966;
     /* width: 80%; */
     text-align: center;
     margin: 10px;
@@ -146,4 +155,26 @@ h1{
   font-size: 170px;
   text-decoration-line: overline underline; 
   
+}
+h2{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "wausau", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 50px; 
+}
+
+h3{
+  background-color: #E3CDA4;
+  color: #703030;
+  font-family: "wausau", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 100px; 
+}
+h10{
+  color: #2F343B;
+  font-family: "hwt-american-shopworn", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 20pt;
 }

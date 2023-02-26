@@ -8,7 +8,66 @@
     <link rel="stylesheet" href="https://use.typekit.net/nfl6tke.css">
     <title>About Me</title>
 </head>
+<h1>The Artist Times</h1>
+<h3>About the Editor:</h3>
+<div class="topnav">
+    <a class="active" href="AboutMe.html">About Me</a>
+    <a href="index.html">Home</a>
+    <a href="Weeklies.html">Weeklies</a>
+    <a href="Portfolio.html">Portfolio</a>
+</div>
+
 <body>
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script"></script>
+    <title>Jquery Example</title>
+    <script>
+        $(document).ready(function(){
+            //$(selector).action()
+            $("button").click(function(){
+                $(".second").hide(3000);
+            })
+
+            $("p").on({
+                mouseenter: function(){
+                    $(this).css("background-color", "lightgray");
+            },
+            mouseleave: function(){
+                $(this).css("background-color", "#C77966");
+            },
+            click: function(){
+                $(this).css("background-color", "#7E827A");
+            }
+        })
+
+        $("#toggleBut").click(function(){
+            $("#togglePara").toggle(1000);
+        })
+    })
+    </script>
+    <h2> Hey, y’all! </h2>
+    <div class="newspaper1">
+        <div>
+            <p>
+            My name is Colton Grant and I am an Art Education undergraduate student at The Ohio State University. 
+            There is a world full of art all around us and as an artist, I explore that world through mixed media, sculpture, painting, collage, and digital art. 
+        As an art educator, I hope to help my students practice this sentiment and explore all the different ways in which art can be found in our everyday lives. 
+        Art allows me to reflect upon my own life, express myself through the world around me, and explore how I personally fit into today’s society.
+                </p>
+        </div>
+    </div>
+    <h2> Internet Art </h2>
+        <div class="newspaper2">
+            <div>
+                <p id="togglePara">
+                This semester I am taking the course ART 3001 Internet Art in order to strengthen my knowledge around the internet as an art medium.
+                Through this course I hope to discover and explore the medium of internet art as a contemporary art practice.
+                In the course, I have already researched how to utilize specific tools and techniques to create internet art such as HTML, CSS, and Javascript. 
+                I have compiled this portfolio website to act as a reflection and guide to all the information and research I have gathered from this course, as well as an interactive portfolio to house some of my artwork. 
+                Through this site, I have worked to capture my personality and interests through artistic decisions and stylistic design choices.
+                As you navigate through this site, have fun and I hope you enjoy exploring as much as I did! 
+                    </p>
+            </div>
+            <button id="toggleBut">Toggle</button>
+        </div>
 </body>
 </html>
