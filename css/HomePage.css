@@ -23,7 +23,7 @@ h1{
     font-family: "hwt-american-shopworn", sans-serif;
     font-weight: 900;
     font-style: normal;
-    font-size: 24pt;
+    font-size: 20pt;
   }
   
   .newspaper2 {
@@ -84,7 +84,7 @@ h1{
     color: #703030;
     font-family: "wausau", sans-serif;
     font-variation-settings: "wght" 400;
-    font-size: 50pt; 
+    font-size: 40pt; 
     
 }
 h3{
@@ -100,29 +100,28 @@ h4{
   color: #703030;
   font-family: "hwt-american-shopworn", sans-serif;
   font-variation-settings: "wght" 400;
-  font-size: 32pt; 
+  font-size: 24pt; 
   
 }h5{
   background-color: #E3CDA4;
   color: #703030;
   font-family: "hwt-american-shopworn", sans-serif;
   font-variation-settings: "wght" 400;
-  font-size: 40pt; 
+  font-size: 32pt; 
   
 }h6{
   background-color: #E3CDA4;
   color: #703030;
   font-family: "hwt-american-shopworn", sans-serif;
   font-variation-settings: "wght" 400;
-  font-size: 55pt; 
+  font-size: 32pt; 
   
-}
-h7{
+}h7{
   background-color: #E3CDA4;
   color: #703030;
   font-family: "hwt-american-shopworn", sans-serif;
   font-variation-settings: "wght" 400;
-  font-size: 75pt; 
+  font-size: 48pt; 
   
 }
 
