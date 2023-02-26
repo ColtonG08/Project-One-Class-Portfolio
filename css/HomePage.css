@@ -16,6 +16,8 @@ h1{
 
 .newspaper1 {
     columns: 25px 2;
+    column-width: 200px;
+    column-gap: 100px;
     background-color: #E3CDA4;
     color: #703030;
     font-family: "hwt-american-shopworn", sans-serif;
