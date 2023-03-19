@@ -1,6 +1,7 @@
 function setup(){
     // Happens only once
-    createCanvas(720, 400);
+    myCanvas = createCanvas(720, 400);
+    myCanvas.parent('myContainer');
 }
 
 function draw(){
